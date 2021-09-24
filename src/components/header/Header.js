@@ -11,7 +11,7 @@ function Header(){
         <img src={foto} alt="Foto Julian" />
     </div>
 <div className="texto">
-    <h1><span className="nombre">Alexandra uwu</span></h1>
+    <h1><span className="nombre">Julian Andres</span>Castro Carreño</h1>
     <h3>Hoja de vida</h3>
     
 </div>
