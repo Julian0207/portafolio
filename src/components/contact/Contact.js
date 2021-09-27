@@ -17,15 +17,18 @@ function MyVerticallyCenteredModal(props) {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
+          <center>
           <h4>Habilidades a destacar</h4>
           <p className='texton' > 
           Mis mejores habilidades respecto al menejo proyectos y lenguajes de programacion es SQL ya que en anteriores me especialice
             en la creacion de base de datos y sus relaciones , tambien manejo PHP , js y java los 
             cuales al ser lenguajes logicos son mas complejos de manera.
           </p>
+          </center>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={props.onHide}>volver</Button>
+          <Button onClick={props.onHide}>volver</Button>]
+          
         </Modal.Footer>
       </Modal>
     );
@@ -74,7 +77,9 @@ function MyVerticallyCenteredModal(props) {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
+          <center>
           <h4>Habilidades a destacar</h4>
+          </center>
           <p className='texton'>
             Mis mejores habilidades respecto al menejo proyectos y lenguajes de programacion es SQL ya que en anteriores me especialice
             en la creacion de base de datos y sus relaciones , tambien manejo PHP , js y java los 
@@ -83,6 +88,7 @@ function MyVerticallyCenteredModal(props) {
         </Modal.Body>
         <Modal.Footer>
           <Button onClick={props.onHide}>volver</Button>
+          
         </Modal.Footer>
       </Modal>
     );

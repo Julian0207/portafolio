@@ -28,6 +28,7 @@ body{
     color: white;
     }
     .dosinferior{
+      margin-left: 50%;
       width: 50%;
       height: 430px;
         float: right;

@@ -16,18 +16,18 @@ function App() {
 
 <Switch>
 
-<Route exact path="/">
+<Route path="/home">
 
 <Home/>
-
 </Route>
+
+
 <Route path="/portafolio">
 <Portafolio/>
 </Route>
+
+
 <Route component={Error404}/>
-<Route path="/perros">
-  <Perros/>
-</Route>
 
 </Switch>
 
